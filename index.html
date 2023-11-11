@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Set the character set for the document -->
+    <meta charset="UTF-8">
+    
+    <!-- Define the viewport settings for responsive design -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Set the title of the web page -->
+    <title>Weather app</title>
+    
+    <!-- Link to an external stylesheet for styling -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Main container for the Weather App -->
+    <div class="main">
+        <!-- Heading for the Weather App -->
+        <h1>Weather App</h1> 
+        
+        <!-- Form for user input -->
+        <form>
+            <!-- Input field for entering the city -->
+            <input type="text" id="city-input" placeholder="Enter City">
+            
+            <!-- Submit button for the form -->
+            <input type="submit" value="submit">
+        </form>
+        
+        <!-- Container for displaying weather data -->
+        <div id="weather-data">
+            <!-- Placeholder for weather icon -->
+            <div class="icon"></div>
+            
+            <!-- Placeholder for temperature information -->
+            <div class="temperature"></div>
+            
+            <!-- Placeholder for weather description -->
+            <div class="description"></div>
+            
+            <!-- Placeholder for additional weather details -->
+            <div class="details"></div>
+        </div>
+    </div>
+    
+    <!-- Include the JavaScript file for dynamic functionality -->
+    <script src="index.js"></script>
+</body>
+</html>
